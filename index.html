@@ -6,26 +6,23 @@
 </head> 
 <style>
 
-
-
  .bloc1{ 
     text-align: center;
-    font-size:3vw;
+    font-size:40px;
     font-weight: bolder;
-    sansseriffont-family:Arial, Helvetica, sans-serif;
-    body background-color::black;
+    color:snow;
+    
     }
  .bloc2{
     font-size:25px;
     font-weight: bolder;
-    sansseriffont-family:Arial, Helvetica, sans-serif;
     text-align: right;
-    
+    color:snow;
     }  
- #bloc3{
-    position: relative;
-	left:32%;
-	top: 50%;   
+ .bloc3{
+   position: relative;
+	left:430px;
+	top: 100px;  
     }  
 
  .bloc4{
@@ -33,36 +30,46 @@
      padding: 40px;
      text-indent: 290px;
      color:rgba(255, 38, 0, 0.76);
-     background-color:rgba(255, 38, 0, 0.76);
      word-spacing:100px;
      font-size:20px; 
     }
   .bloc5 {
      border: 1px solid rgba(255, 38, 0, 0.76);
-     margin: 20px;
      background-color:snow;
      padding :10px;
      width:20px;
+     font-size:30px;
   } 
+  .bloc6{
+   border:1px solid;
+   color:snow;
+   padding:50px;
+   background-color:grey;
+   font-size:20px;
+   height: 150x;
+   margin-top:0px;
+   text-indent:500px;
+   width:1240px;
+   height:200px;
+  }
     </style>
 <body>
-<div class="div1"  body style=" background-color: rgba(73,66, 180, 0.767)">
-<h1 class= "bloc1" style= "color:snow">Projeto seletivo Future4</h1>
-<img id= "bloc3"  id="central" src= "future4.jpg" alt= "Future4" width="500" height="250">
-<h3 class="bloc2" style ="color: snow"><i>Turma Web &nbsp; Full Stack 01</i></h3>
+<div style=" width:1340px; height:700px; margin-top:px; background-color: rgba(73,66, 180, 0.767)" >
+<h1 class= "bloc1"> <font face="Arial"> Projeto seletivo Future4</font></h1>
+<img class= "bloc3"  id="central" src= "future4.jpg" alt= "Future4" width="500" height="250">
+<h3 class="bloc2"><font face="Arial"><i>Turma Web Full Stack 01</i></h3></font>
 </div>
-<div class="bloc4">
-<h1><b><span class="bloc5"  > HTML </span> <span class="bloc5"> CSS </span> <span class="bloc5" >Javascript</span></b></h1>
+<div class="bloc4" style=" width:1260px; height:200px; margin-top:0px; background-color:rgba(255, 38, 0, 0.76)">
+<h1><b><span class="bloc5"><font face="Arial"> HTML </span> <span class="bloc5"> CSS </span> <span class="bloc5" >Javascript</span></b></h1></font>
 </div>
-<p onclick="myfunction()"><span>Enviar</span></p>
-<p >Email: <input type="text" id="test" value=""> </p>
+<div>
+<h2 class="bloc6"><font face="Arial"><input type="text" id="test" value="" placeholder="Coloque aqui o seu email" ><span onclick="myfunction()">  Enviar</span></font> </p>
 <script>
 function myfunction(){
     var x=document.getElementById("test").value;
     alert ("O email "+x+" foi enviado");
 }
-
 </script>
-
+</div>
 </body> 
 </html>
