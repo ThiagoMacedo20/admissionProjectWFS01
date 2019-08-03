@@ -6,7 +6,9 @@
 </head> 
 <style>
 
- .bloc1{ 
+    .bloc1{ 
+    border:0px transparent ;
+    padding: 100px 0px 40px 0px;
     text-align: center;
     font-size:40px;
     font-weight: bolder;
@@ -14,56 +16,57 @@
     
     }
  .bloc2{
-    font-size:25px;
+    border:0px transparent;
+    padding:120px 15px 15px 0px;
+    font-size:30px;
     font-weight: bolder;
     text-align: right;
     color:snow;
     }  
  .bloc3{
    position: relative;
-	left:430px;
-	top: 100px;  
-    }  
-
- .bloc4{
-     margin-top:0px;
-     padding: 40px;
-     text-indent: 290px;
-     color:rgba(255, 38, 0, 0.76);
-     word-spacing:100px;
-     font-size:20px; 
+	left:435px;
+	top: 10px;      
     }
   .bloc5 {
-     border: 1px solid rgba(255, 38, 0, 0.76);
+     margin:80px 80px 40px 80px;
+     border:1px  transparent  rgba(255, 38, 0, 0.76);
      background-color:snow;
-     padding :10px;
-     width:20px;
+     padding:80px 100px 80px 100px;
+     color:rgba(255, 38, 0, 0.76);
      font-size:30px;
   } 
   .bloc6{
-   border:1px solid;
    color:snow;
-   padding:50px;
+   padding:80px;
    background-color:grey;
-   font-size:20px;
-   height: 150x;
+   height:150px;
    margin-top:0px;
-   text-indent:500px;
+   text-indent:300px;
    width:1240px;
-   height:200px;
+   height:100px;
+  }
+  .bloc7{
+     border:2px transparent;
+     margin:0px 0px 40px;
+     padding:10px;
+     width: 40px;
+     font-size:30px;
+     background-color:rgba(255, 38, 0, 0.76);
   }
     </style>
 <body>
-<div style=" width:1340px; height:700px; margin-top:px; background-color: rgba(73,66, 180, 0.767)" >
+<div style=" width:1340px; height:800px; margin-top:-20px; background-color: rgba(73,66, 180, 0.767)" >
 <h1 class= "bloc1"> <font face="Arial"> Projeto seletivo Future4</font></h1>
-<img class= "bloc3"  id="central" src= "future4.jpg" alt= "Future4" width="500" height="250">
+<img class= "bloc3"  id="central" src= "future4.jpg" alt= "Future4" width="470" height="250">
 <h3 class="bloc2"><font face="Arial"><i>Turma Web Full Stack 01</i></h3></font>
 </div>
-<div class="bloc4" style=" width:1260px; height:200px; margin-top:0px; background-color:rgba(255, 38, 0, 0.76)">
-<h1><b><span class="bloc5"><font face="Arial"> HTML </span> <span class="bloc5"> CSS </span> <span class="bloc5" >Javascript</span></b></h1></font>
+<div style=" width:1340px; height:300px; margin-top:-20px; background-color:rgba(255, 38, 0, 0.76)">
+   <h2><b><span class="bloc5"><font face="Arial"> HTML </span> <span class="bloc5"> CSS </span> <span class="bloc5" >Javascript</span></b></h1></font>
 </div>
-<div>
-<h2 class="bloc6"><font face="Arial"><input type="text" id="test" value="" placeholder="Coloque aqui o seu email" ><span onclick="myfunction()">  Enviar</span></font> </p>
+
+<div class="bloc6">
+<h3><font face="Arial"><input type="text" id="test" style="height:50px"  size="50 " value="" placeholder="Coloque aqui o seu email" ><span class="bloc7"onclick="myfunction()">  Enviar</span></font> </p>
 <script>
 function myfunction(){
     var x=document.getElementById("test").value;
