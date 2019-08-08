@@ -32,23 +32,23 @@
    width:1340px; 
    height:300px; 
    margin-top:-20px; 
-   background:rgba(255, 38, 0, 0.76);
+   background:rgb(205, 79, 0);
 }
   .bloc4 .bloc5 {
-     text-indent:px;;
+     width:90px;
      float:left;
-     margin:55px 70px 55px 50px;
-     border:1px  solid rgba(255, 38, 0, 0.76);
+     margin:55px 60px 55px 50px;
+     border:1px  solid rgb(205, 79, 0);;
      background-color:snow;
      padding:80px 120px;
-     color:rgba(255, 38, 0, 0.76);
-     font-size:25px;
+     color:rgb(205, 79, 0);;
+     font-size:30px;
      
   } 
   .bloc6{
    color:snow;
    padding:80px;
-   background-color:grey;
+   background-color:rgb(215,215,215);
    height:150px;
    margin-top:0px;
    text-indent:300px;
@@ -56,28 +56,33 @@
    height:100px;
   }
   .bloc7{
-     border:2px transparent;
+     border:1px solid black;
      margin:0px 0px 40px;
      padding:10px;
      width: 40px;
      font-size:30px;
-     background-color:rgba(255, 38, 0, 0.76);
+     background-color:rgb(205, 79, 0);   
+  }
+  .bloc8{
+     font-size:31px;
+     height: 50px;
+     font-weight: bold  ;
   }
     </style>
 <body>
-<div style=" width:1340px; height:700px; margin-top:-20px; background-color: rgba(73,66, 180, 0.767)" >
+<div style=" width:1340px; height:700px; margin-top:-20px; background-color: rgb(89, 90, 151)" >
 <h1 class= "bloc1"> <font face="Arial"> Projeto seletivo Future4</font></h1>
 <img class= "bloc3"  id="central" src= "future4.jpg" alt= "Future4" width="470" height="250">
 <h3 class="bloc2"><font face="Arial"><i>Turma Web Full Stack 01</i></h3></font>
 </div>
 <div class= "bloc4">
    <div>
-      <h2><b><span class="bloc5"><font face="Arial"> HTML </span> <span class="bloc5"> CSS </span> <span class="bloc5" >Javascript</span></b></h1></font>
+      <h2><b><span class="bloc5"><font face="Arial"> HTML </span> <span class="bloc5"style="text-indent:10px"> CSS </span> <span class="bloc5"style="text-indent:-30px" >Javascript</span></b></h1></font>
      </div>
 </div>
 
 <div class="bloc6">
-<h3><font face="Arial"><input type="text" id="test" style="height:50px"  size="50 " value="" placeholder="Coloque aqui o seu email" ><span class="bloc7"onclick="myfunction()">  Enviar</span></font> </p>
+<h3><font face="Arial"><input type="text" id="test" class="bloc8"  size="25" value="" placeholder="Coloque aqui o seu email" ><span class="bloc7"onclick="myfunction()">  Enviar</span></font> </p>
 <script>
 function myfunction(){
     var x=document.getElementById("test").value;
